@@ -18,3 +18,9 @@ Rules of Hook
 - Only call reactHooks in React Functions
 - Only call raactHooks at TopLevel
 - Always add everuthing your refer to inside of useEffect as a dependency
+
+useImperativeHandle and forwardRef
+
+- we can expose functionalities from a React Compoenent to its parent Component to then use in the component through refs and trigger certain functions
+- also able to expose value
+- try to avoid using this, but it is very useful for scrolling and focusing
